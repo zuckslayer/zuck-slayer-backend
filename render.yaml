@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: zuck-slayer-api
+    runtime: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: POSTGRES_URL
+        sync: false
+        
